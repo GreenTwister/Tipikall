@@ -1,0 +1,30 @@
+#bloc-footer {
+    position: relative!important;
+    bottom: 0;
+}
+
+.container {
+	text-align: left;
+}
+
+.waves-effect:hover{
+	background-color: #CF2027 !important;
+}
+.acentrer{
+	margin:0 auto !important;
+}
+
+.ret{
+	color:white !important;
+	text-align:center;
+}
+
+.section p, h1, h2, h3, h4 {
+	text-align: left;
+}
+
+#resume{
+	    overflow: hidden;
+    padding: 15px;
+    background-color: #D4B2D8;
+}

@@ -1,0 +1,39 @@
+/** PAGE **/
+#main-page {
+    background: rgba(255,255,255,.75);
+}
+
+/** FOOTER **/
+#bloc-footer {
+    position: relative;
+    bottom: 0;
+}
+
+
+/** ARTICLE **/
+.titreart{
+	color:#CF2027;
+	font-weight: bold;
+}
+
+#tfix{
+	overflow:hidden;
+	padding: 15px;
+	background-color:#D4B2D8;
+}
+.pagination{
+	text-align:right;
+}
+.page-numbers,.current, .next{
+	font-family: CaviarDreams, Quantify, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	color:white;
+	background-color:#CF2027;
+	border: none;
+    border-radius: 2px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+.section {
+	text-align: left;
+}

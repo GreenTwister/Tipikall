@@ -1,0 +1,120 @@
+/** RELATIVE TO FULLPAGE.JS **/
+
+.section {
+	text-align:center;
+    padding-right: 10%;
+    padding-left: 10%;
+	background-color: rgba(255, 255, 255, .75);
+}
+
+.section:nth-child(even) {
+	background-color: rgba(239, 206, 250, .75);
+}
+
+/** FOOTER **/
+
+#bloc-footer {
+	position: fixed;
+	bottom: 0;
+}
+.waves-effect:hover{
+	background-color: #CF2027 !important;
+}
+
+/** PAGE **/
+
+#front-page {
+    position: absolute !important;
+    top: 0px;
+    z-index: -100;
+}
+
+#front-article h2, h3 {
+	font-family: CaviarDreams, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+}
+
+#front-article h3 {
+	font-size: 1.5rem;
+}
+
+#front-article h2 {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 0px;
+}
+
+#blog-teaser {
+	background-color: rgba(255,255,255,.75);
+    padding: 10px;
+	border-radius: 10px;
+}
+
+#blog-teaser a {
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.fp-controlArrow.fp-prev {
+    	left: 10px;
+	}
+	.fp-controlArrow.fp-next {
+    	right: 10px;
+	}
+	.fp-controlArrow {
+    	top: 65%;
+	}
+	#front-article h3 {
+		font-size: 1.2rem;
+	}
+	.icon-scroll {
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#front-article h2 {
+		font-size: 2rem;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	#front-article h2 {
+		font-size: 2.3rem;
+	}
+}
+
+.icon-scroll {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+	bottom: 5%;
+}
+
+.icon-scroll {
+  	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  	animation-name: icoscroll;
+  	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes icoscroll {
+  	0%   {opacity: 0;}
+  	25%  {opacity: 0.5;}
+  	50%  {opacity: 1;}
+  	75%  {opacity: 0.5;}
+  	100% {opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes icoscroll {
+  	0%   {opacity: 0;}
+  	25%  {opacity: 0.5;}
+  	50%  {opacity: 1;}
+  	75%  {opacity: 0.5;}
+  	100% {opacity: 0;}
+}
